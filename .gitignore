@@ -15,3 +15,12 @@
 *.aliases
 *.lvlps
 .cache/
+
+build/
+site/
+__pycache__/
+node_modules/
+package.json
+package-lock.json
+*.pdf
+*.o
