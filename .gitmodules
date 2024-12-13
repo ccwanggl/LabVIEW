@@ -1,0 +1,3 @@
+[submodule "vendor/labview_book"]
+	path = vendor/labview_book
+	url = https://github.com/ccwanggl/labview_book.git
