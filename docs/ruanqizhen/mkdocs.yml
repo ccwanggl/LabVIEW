@@ -1,13 +1,14 @@
 site_name: "Learn LabVIEW"
-site_description: 
-site_author: 
-copyright:
-repo_url: 
+site_description: "我和LabVIEW的拆书记录"
+site_author: "王国梁"
+repo_url: "http://www.ccwanggl.com"
 
 nav:
-  - Home: index.md
-  - Contents:
-    - LabVIEW 编程基础: basics/
+  - 前言: index.md
+  - LabVIEW 编程基础: 
+    - 数值和布尔数据: basics/data_number.md
+    - 数组和循环结构: basics/data_array.md
+    - 字符串和路径数据: basics/data_string.md
 
 
 plugins:
@@ -16,13 +17,14 @@ plugins:
   - print-site
 
 extra_css: 
-  - css/extra.css
+  - stylesheet/extra.css
 
 extra_javascript:
-  - js/extra.js
+  - javascripts/extra.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 theme:
-  name: mkdocs
+  name: material
   palette:
     primary: blue grey
   font:

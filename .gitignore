@@ -1,3 +1,6 @@
+# virtual env files
+**/venv/
+
 # Libraries
 *.lvlibp
 *.llb
@@ -24,3 +27,4 @@ package.json
 package-lock.json
 *.pdf
 *.o
+
